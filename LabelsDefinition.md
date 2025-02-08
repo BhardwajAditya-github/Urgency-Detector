@@ -10,7 +10,7 @@ The **Urgency Detector** is a machine learning model designed to detect scam cal
    - **Definition**: Scammers use **emotionally charged situations** to manipulate the victim. This type of urgency is based on preying on personal relationships and emotions such as **guilt**, **sympathy**, **fear**, or **love**. The victim is made to feel emotionally responsible for the situation at hand, often related to loved ones or pets.
    - **Key Focus**: Emotional manipulation, relationship-based distress, feelings of responsibility and connection.
    - **Example**: A scammer might claim that a family member is in critical danger or that a pet is lost, urging the victim to act quickly because they feel an emotional attachment.
-
+   - **Edge Cases**: TO handle scenarios such as acutal son calls and asks his mom for help, we need to ensure the model considers context and relationship in the conversations. For example, the tone, nature of the conversation, and relationship between the caller and receiver should be factored in. We must include actual conversation of this type under "No Urgency" label.
 ---
 
 ### 2. **Financial Urgency**
